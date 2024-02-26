@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 115px 52px;
+    background-color: #1F2937;
+    max-width: 550px;
+    max-height: 550px;
+}
+
+.karla-my-karla-font {
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    color: white;
+}
+
+h1 span {
+    color: #55F991;
+}
+
+h2 {
+    size: 20px;
+    color: #D5D4D8;
+}
+
+
+#passwords {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    border-top: 1px solid #2F3E53;
+    padding-top: 35px;
+}
+
+p {
+    max-width: 192px;
+    max-height: 32px;
+}
+
+#passwordOne-el, #passwordTwo-el {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    color: #55F991;
+    border-radius: 6px;
+    border-style: none;
+    line-height: 32px;
+    padding: 4px 9px 3px 10px;
+    text-align: center;
+}
+
+#generator-btn {
+    background-color: #10B981;
+    color: white;
+    line-height: 24px;
+    border-style: none;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    margin-top: 51px;
+}
